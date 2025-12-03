@@ -13,6 +13,18 @@ bash <(wget -qO- -o- https://github.com/233boy/sing-box/raw/main/install.sh)
 bash <(wget -qO- -o- https://github.com/233boy/sing-box/raw/main/install.sh)
 ```
 
+### 3. 线路连接不好、Hy2有Qos， 可以尝试勇哥开启CDN优选的节点运行脚本(添加Argo 临时隧道/固定隧道)
+#### Vmess-ws-argo临时隧道CDN优选节点
+```bash
+vmpt="" argo="vmpt" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
+```
+#### Vless-ws-vision-enc-argo临时隧道CDN优选节点
+```bash
+vwpt="" argo="vwpt" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
+```
+
+
+
 ## BBR加速（推荐V3版本）
 ### 安装一键加速脚本
 ```bash
