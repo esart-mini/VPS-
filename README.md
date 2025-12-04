@@ -23,6 +23,11 @@ vmpt="" argo="vmpt" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/
 vwpt="" argo="vwpt" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
 ```
 
+## swap扩大
+```bash
+wget -q https://raw.githubusercontent.com/esart-mini/VPS-/main/setup_swap.sh -O swap.sh && bash swap.sh
+```
+
 
 
 ## BBR加速（推荐V3版本）
