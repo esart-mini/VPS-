@@ -23,12 +23,13 @@ vmpt="" argo="vmpt" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/
 vwpt="" argo="vwpt" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
 ```
 
-## swap扩大
+## 4. swap扩大
 ```bash
 wget -q https://raw.githubusercontent.com/esart-mini/VPS-/main/setup_swap.sh -O swap.sh && bash swap.sh
 ```
 
-
+## 5. 更多
+https://www.nodeseek.com/post-528874-1
 
 ## BBR加速（推荐V3版本）
 ### 安装一键加速脚本
